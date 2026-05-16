@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
+using System.ServiceModel;
 
 namespace Server
 {
@@ -10,6 +12,13 @@ namespace Server
     {
         static void Main(string[] args)
         {
+            using (ServiceHost host = new ServiceHost(typeof(WindTurbineService)))
+            {
+                host.Open();
+                Console.WriteLine("Server je pokrenut na net.tcp://localhost:4000/WindTurbine");
+                Console.WriteLine("Pritisnite [Enter] za zaustavljanje servera.");
+                Console.ReadLine();
+            }
         }
     }
 }
