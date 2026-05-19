@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Common;
 using System.ServiceModel;
+using System.ServiceModel.Configuration;
 
 namespace Server
 {

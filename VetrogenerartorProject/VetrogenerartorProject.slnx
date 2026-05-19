@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="Client/Client.csproj" />
-  <Project Path="Common/Common.csproj" />
-  <Project Path="Server/Server.csproj" />
+  <Project Path="Client/Client.csproj" Id="9266f7ef-7637-4d4c-a87f-c204e6989c4f" />
+  <Project Path="Common/Common.csproj" Id="5751d93a-b33f-4557-9b54-64768e539159" />
+  <Project Path="Server/Server.csproj" Id="1cdafb79-b14d-4ebf-8d46-3bfc907be3f6" />
 </Solution>

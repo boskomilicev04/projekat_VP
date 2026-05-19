@@ -32,6 +32,7 @@ namespace Common
         void StartSession(string turbineId);
 
         [OperationContract]
+        [FaultContract(typeof(ValidationFault))]
         void PushSample(WindTurbineSample sample);
 
         [OperationContract]
